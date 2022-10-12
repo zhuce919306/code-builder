@@ -1,0 +1,163 @@
+pl-generate:
+  # 包名
+  package-name: com.pl
+  # 作者名称
+  author: plserver
+  # 表前缀
+  table-prefix: pl_
+  # 生成模式
+  style: pl-web
+  # 是否状态
+  wired: true
+  # 装配类型 autoWired:@AutoWired,resource:@Resource,constructor:构造方法
+  wired-type: autoWired
+  # swagger
+  swagger: true
+  # 字段配置
+  column-config:
+    # 公共字段
+    common-columns: create_time,update_time,create_user_id，update_user_id,delete_flag
+    # 隐藏字段
+    hidden-columns:
+    # 逻辑删除字段
+    logic-delete-columns: delete_flag
+    # insert语句自动填充字段
+    insert-fill-columns: create_time,create_user_id
+    # update语句自动填充字段
+    update-fill-columns:
+    # insert或update语句自动填充字段
+    insert-or-update-fill-columns: update_time,update_user_id
+  # 实体配置
+  entity-config:
+    # 是否继承父类
+    extends-super: false
+    # 父类包路径
+    super-class-package:
+    # lombok配置
+    lombok-config:
+      enable: true
+      builder: false
+      data: true
+      setter: false
+      getter: false
+      to-str: false
+      equals-and-hash-code: false
+      all-args-constructor: false
+      no-all-args-constructor: false
+      accessors:
+        enable: false
+        # fluent、prefix、chain
+        mode:
+        prefix-mode-value:
+  # Mapper配置
+  mapper-config:
+    # id类型 auto:数据库ID自增,none:未设置主键,input:用户输入ID,assign_id:雪花算法Id,assign_uuid:uuid
+    idType: assign_id
+    mapper-annotation: true
+    methods:
+    build-xml: true
+  type-mapper-config:
+    - columnType: decimal
+      javaType: BigDecimal
+      importPackage: true
+      packageName: java.math.BigDecimal
+
+    - columnType: float
+      javaType: Float
+      importPackage: false
+      packageName: java.lang.Float
+
+    - columnType: integer
+      javaType: Integer
+      importPackage: false
+      packageName: java.lang.Integer
+
+    - columnType: timestamp
+      javaType: LocalDateTime
+      importPackage: true
+      packageName: java.time.LocalDateTime
+
+    - columnType: bigint
+      javaType: Long
+      importPackage: false
+      packageName: java.lang.Long
+
+    - columnType: datetime
+      javaType: LocalDateTime
+      importPackage: true
+      packageName: java.time.LocalDateTime
+
+    - columnType: mediumint
+      javaType: Integer
+      importPackage: false
+      packageName: java.lang.Integer
+
+    - columnType: tinyint
+      javaType: Integer
+      importPackage: false
+      packageName: java.lang.Integer
+
+    - columnType: varchar
+      javaType: String
+      importPackage: false
+      packageName: java.lang.String
+
+    - columnType: mediumtext
+      javaType: String
+      importPackage: false
+      packageName: java.lang.String
+
+    - columnType: date
+      javaType: LocalDate
+      importPackage: true
+      packageName: java.time.LocalDate
+
+    - columnType: smallint
+      javaType: Integer
+      importPackage: false
+      packageName: java.lang.Integer
+
+    - columnType: int
+      javaType: Integer
+      importPackage: false
+      packageName: java.lang.Integer
+
+    - columnType: bit
+      javaType: Boolean
+      importPackage: false
+      packageName: java.lang.Boolean
+
+    - columnType: tinytext
+      javaType: String
+      importPackage: false
+      packageName: java.lang.String
+
+    - columnType: double
+      javaType: Double
+      importPackage: false
+      packageName: java.lang.Double
+
+    - columnType: text
+      javaType: String
+      importPackage: false
+      packageName: java.lang.String
+
+    - columnType: char
+      javaType: String
+      importPackage: false
+      packageName: java.lang.String
+
+    - columnType: longtext
+      javaType: String
+      importPackage: false
+      packageName: java.lang.String
+  # Controller配置
+  controller-config:
+    # 生成基础API接口，如：page、list、getById、remove、save、update
+    basicApi: true
+    # 响应实体
+    response-entity:
+      package-name: com.pl.core.response.Result
+      success-method: ok
+      error-method: fail
+

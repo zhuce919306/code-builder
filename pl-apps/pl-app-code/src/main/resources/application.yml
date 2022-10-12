@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://10.12.107.80:3306/cc_dum2?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=true&useSSL=false&serverTimezone=UTC&serverTimezone=GMT%2b8
+      username: root
+      password: Cci@2020
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    view:
+      suffix: classpath:/static/
+mybatis-plus:
+  mapper-locations: classpath*:/mappers/**/*.xml
+
+
+
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.pl</groupId>
+    <artifactId>pl-commom-dependencies</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <description>版本控制模块</description>
+
+    <properties>
+        <pl.version>1.0.0</pl.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- 公共工具模块 -->
+            <dependency>
+                <groupId>com.pl</groupId>
+                <artifactId>pl-common-utils</artifactId>
+                <version>${pl.version}</version>
+            </dependency>
+
+            <!-- 数据操作模块 -->
+            <dependency>
+                <groupId>com.pl</groupId>
+                <artifactId>pl-data-core</artifactId>
+                <version>${pl.version}</version>
+            </dependency>
+
+            <!-- pl核心模块 -->
+            <dependency>
+                <groupId>com.pl</groupId>
+                <artifactId>pl-core</artifactId>
+                <version>${pl.version}</version>
+            </dependency>
+
+            <!-- 动态数据模块 -->
+            <dependency>
+                <groupId>com.pl</groupId>
+                <artifactId>pl-datasource-dynamic</artifactId>
+                <version>${pl.version}</version>
+            </dependency>
+
+            <!-- redis模块 -->
+            <dependency>
+                <groupId>com.pl</groupId>
+                <artifactId>pl-datasource-redis</artifactId>
+                <version>${pl.version}</version>
+            </dependency>
+
+            <!-- 对象存储 -->
+            <!--<dependency>
+                <groupId>com.pl</groupId>
+                <artifactId>pl-oss</artifactId>
+                <version>${pl.version}</version>
+            </dependency>-->
+
+            <!-- 数据脱敏模块 -->
+            <!--<dependency>
+                <groupId>com.pl</groupId>
+                <artifactId>pl-data-sensitive</artifactId>
+                <version>${pl.version}</version>
+            </dependency>-->
+
+            <!-- 对象转换模块 -->
+            <!--<dependency>
+                <groupId>com.pl</groupId>
+                <artifactId>pl-data-conver</artifactId>
+                <version>${pl.version}</version>
+            </dependency>-->
+
+            <!-- 安全模块 -->
+            <!--<dependency>
+                <groupId>com.pl</groupId>
+                <artifactId>pl-common-security</artifactId>
+                <version>${pl.version}</version>
+            </dependency>-->
+
+            <!-- 系统相关数据操作 -->
+            <!--<dependency>
+                <groupId>com.pl</groupId>
+                <artifactId>pl-crud-system</artifactId>
+                <version>${pl.version}</version>
+            </dependency>-->
+
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>
