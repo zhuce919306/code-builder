@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 /**
  * @ClasssName AbstractPlEntity
  * @Description 系统字段抽象类
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/7/6
  * @Version V0.0.1
  */

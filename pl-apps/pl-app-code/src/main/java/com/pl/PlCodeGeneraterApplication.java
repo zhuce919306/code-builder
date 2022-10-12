@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @ClasssName PlCodeGeneraterApplication
  * @Description 代码生成服务
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/7/30
  * @Version V0.0.1
  */

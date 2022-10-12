@@ -6,7 +6,7 @@ import com.pl.code.entity.po.PlGenerateConfig;
 /**
  * @ClasssName PlGenerateConfigService
  * @Description 生成配置Service
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/15
  * @Version V0.0.1
  */

@@ -5,7 +5,7 @@ import com.sun.xml.internal.ws.util.StringUtils;
 /**
  * @ClasssName BusinessException
  * @Description 业务异常
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/7/12
  * @Version V0.0.1
  */

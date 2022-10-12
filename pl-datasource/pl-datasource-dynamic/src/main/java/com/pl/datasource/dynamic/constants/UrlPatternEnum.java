@@ -9,7 +9,7 @@ import java.util.Arrays;
 /**
  * @ClasssName UrlPatternEnum
  * @Description 数据库URL格式枚举
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/7/8
  * @Version V0.0.1
  */

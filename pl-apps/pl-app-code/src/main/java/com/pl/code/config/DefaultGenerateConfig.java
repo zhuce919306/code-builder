@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 /**
  * @ClasssName DefaultGenerateConfig
  * @Description 代码生成配置
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/15
  * @Version V0.0.1
  */

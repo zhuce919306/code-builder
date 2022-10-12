@@ -5,7 +5,7 @@ import com.pl.code.entity.po.PlGenerateConfig;
 /**
  * @ClasssName AddGenerateConfigDTO
  * @Description 新增生成配置参数DTO
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/15
  * @Version V0.0.1
  */

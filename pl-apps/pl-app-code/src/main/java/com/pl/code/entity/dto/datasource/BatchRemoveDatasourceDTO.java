@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * @ClasssName BatchRemoveDatasourceDTO
  * @Description 批量删除数据源DTO
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/13
  * @Version V0.0.1
  */

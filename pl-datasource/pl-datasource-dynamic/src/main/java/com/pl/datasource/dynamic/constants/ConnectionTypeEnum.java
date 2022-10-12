@@ -8,7 +8,7 @@ import java.util.Arrays;
 /**
  * @ClasssName ConnectionTypeEnum
  * @Description 数据库连接类型
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/7/8
  * @Version V0.0.1
  */

@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 /**
  * @ClasssName PlCoreAutoConfiguration
  * @Description
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/7/30
  * @Version V0.0.1
  */

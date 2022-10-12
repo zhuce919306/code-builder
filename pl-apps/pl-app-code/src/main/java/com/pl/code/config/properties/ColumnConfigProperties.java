@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @ClasssName ColumnConfigProperties
  * @Description 字段配置属性
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/20
  * @Version V0.0.1
  */

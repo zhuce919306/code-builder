@@ -15,7 +15,7 @@ import java.util.Properties;
 /**
  * @ClasssName YamlPropertyResourceFactory
  * @Description YAML配置文件读取工厂类
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/15
  * @Version V0.0.1
  */

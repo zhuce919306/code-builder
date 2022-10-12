@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * @ClasssName Result
  * @Description Restful响应信息主体
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/7/8
  * @Version V0.0.1
  */

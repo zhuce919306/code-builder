@@ -6,7 +6,7 @@ import com.pl.data.core.entity.AbstractPlEntity;
 /**
  * @ClasssName TemplateEntity
  * @Description
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/25
  * @Version V0.0.1
  */

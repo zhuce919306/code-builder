@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * @ClasssName PlGenerateConfigMapper
  * @Description 生成配置
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/15
  * @Version V0.0.1
  */

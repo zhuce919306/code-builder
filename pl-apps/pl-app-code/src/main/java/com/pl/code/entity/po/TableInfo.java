@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * @ClasssName TableInfo
  * @Description 表信息
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/17
  * @Version V0.0.1
  */

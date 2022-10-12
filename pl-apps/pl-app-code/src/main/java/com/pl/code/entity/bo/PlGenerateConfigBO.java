@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * @ClasssName PlGenerateConfigBO
  * @Description
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/27
  * @Version V0.0.1
  */

@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 /**
  * @ClasssName DatasourceProperties
  * @Description 数据源配置文件
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/7/8
  * @Version V0.0.1
  */

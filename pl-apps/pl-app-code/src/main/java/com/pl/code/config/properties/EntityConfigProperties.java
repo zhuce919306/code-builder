@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @ClasssName EntityConfigProperties
  * @Description 实体配置属性
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/20
  * @Version V0.0.1
  */

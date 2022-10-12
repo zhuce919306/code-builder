@@ -3,7 +3,7 @@ package com.pl.data.core.constants;
 /**
  * @ClasssName BasicConstants
  * @Description 基础公共常量
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/7/8
  * @Version V0.0.1
  */

@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * @ClasssName ClearTtlDsInterceptor
  * @Description 清空上文的数据源拦截器，避免污染当前线程
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/7/8
  * @Version V0.0.1
  */

@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * @ClasssName ResponseEntityConfigProperties
  * @Description
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/6/1
  * @Version V0.0.1
  */

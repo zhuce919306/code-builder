@@ -10,7 +10,7 @@ import java.lang.annotation.*;
 /**
  * @ClasssName EnableDynamicDataSource
  * @Description 开启动态数据源
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/7/8
  * @Version V0.0.1
  */

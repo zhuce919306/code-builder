@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @ClasssName PlGenerateProperties
  * @Description
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/20
  * @Version V0.0.1
  */

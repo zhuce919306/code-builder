@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 /**
  * @ClasssName GenerateResultDTO
  * @Description
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/18
  * @Version V0.0.1
  */

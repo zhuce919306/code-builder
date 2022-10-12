@@ -10,7 +10,7 @@ import java.util.Arrays;
 /**
  * @ClasssName MyBatisMetaObjectHandler
  * @Description mybatis自动填充
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/7/6
  * @Version V0.0.1
  */

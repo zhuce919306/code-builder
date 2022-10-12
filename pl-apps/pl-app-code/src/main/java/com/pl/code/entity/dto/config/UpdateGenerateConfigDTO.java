@@ -8,7 +8,7 @@ import javax.validation.constraints.NotNull;
 /**
  * @ClasssName UpdateGenerateConfigDTO
  * @Description 修改生成配置参数DTO
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/15
  * @Version V0.0.1
  */

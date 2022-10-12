@@ -6,7 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * @ClasssName LombokConfigProperties
  * @Description lombok配置属性
- * @Author Liuyh
+ * @Author liuds
  * @Date 2021/5/20
  * @Version V0.0.1
  */
